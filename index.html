@@ -1,81 +1,220 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Shaik Nayab Rasool | Portfolio</title>
-  <link rel="stylesheet" href="style.css">
-  <link href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css" rel="stylesheet">
+  <!-- Basic -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Shaik Nayab Rasool | Java Backend & DSA</title>
+  <meta name="description" content="Portfolio of Shaik Nayab Rasool — Java & DSA, backend development, ML projects, and problem solving. Explore projects, skills, and coding profiles." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css" rel="stylesheet" />
+
+  <!-- Open Graph / Twitter -->
+  <meta property="og:title" content="Shaik Nayab Rasool | Java Backend & DSA" />
+  <meta property="og:description" content="Java backend developer in progress, strong DSA, and ML projects. View projects, skills, and coding profiles." />
+  <meta property="og:image" content="https://github.com/imnayab.png" />
+  <meta property="og:url" content="https://imnayab.github.io/" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <!-- Schema.org JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Shaik Nayab Rasool",
+    "url": "https://imnayab.github.io/",
+    "image": "https://github.com/imnayab.png",
+    "sameAs": [
+      "https://github.com/imnayab",
+      "https://leetcode.com/u/imnayab/",
+      "https://www.geeksforgeeks.org/user/imnayab/"
+    ],
+    "jobTitle": "Student | Java & DSA",
+    "description": "Aspiring Java backend developer with strong Data Structures & Algorithms and hands-on ML projects."
+  }
+  </script>
 </head>
 <body>
-  <!-- Header -->
-  <header>
-    <div class="container">
-      <img src="https://github.com/imnayab.png" alt="Shaik Nayab Rasool" class="profile-pic">
-      <h1>Shaik Nayab Rasool</h1>
-      <p>Aspiring Software Developer | Competitive Programmer</p>
-    </div>
+  <!-- NAV -->
+  <header class="nav">
+    <a class="brand" href="#home">imnayab</a>
+    <nav>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#coding">Coding</a>
+      <a href="#contact">Contact</a>
+      <a class="btn btn-primary btn-sm" target="_blank" href="https://drive.google.com/file/d/1PO41UB_CBhZ804fpqyt_Yn203PdsB3_4/view?usp=sharing">
+        <i class="ri-file-text-line"></i>&nbsp;Resume
+      </a>
+    </nav>
   </header>
 
-  <!-- About -->
-  <section id="about">
-    <h2>About Me</h2>
-    <p>
-      I’m a passionate developer focusing on Data Structures & Algorithms, backend development, 
-      and building impactful projects. Enthusiastic about problem solving and exploring scalable solutions.
-    </p>
-  </section>
-
-  <!-- Skills -->
-  <section id="skills">
-    <h2>Skills</h2>
-    <div class="skills-container">
-      <div class="skill-category slide-in">
-        <h3>Programming Languages</h3>
-        <p>C, C++, Java, Python</p>
-      </div>
-      <div class="skill-category slide-in">
-        <h3>Domain Related Skills</h3>
-        <p>Data Structures, Algorithms, OOP, DBMS, OS, Networking</p>
-      </div>
-      <div class="skill-category slide-in">
-        <h3>Frameworks & Tools</h3>
-        <p>Spring Boot, Git/GitHub, MySQL, MongoDB</p>
+  <!-- HERO -->
+  <section id="home" class="hero container">
+    <div class="hero__content">
+      <img class="avatar" src="https://github.com/imnayab.png" alt="Shaik Nayab Rasool" />
+      <div>
+        <h1>Shaik Nayab Rasool</h1>
+        <p class="tagline">
+          Java • DSA • Backend (Spring) • ML Projects
+        </p>
+        <p class="about">
+          I’m a Computer Science (AI & ML) student focused on **clean backend fundamentals in Java**, strong **Data Structures & Algorithms**, and hands-on **ML prototypes**. 
+          I enjoy turning problem statements into neat, scalable solutions and documenting my learning in public.
+        </p>
+        <div class="cta">
+          <a class="btn btn-primary" target="_blank" href="https://github.com/imnayab"><i class="ri-github-fill"></i>&nbsp;GitHub</a>
+          <a class="btn btn-ghost" target="_blank" href="https://leetcode.com/u/imnayab/"><i class="ri-code-box-line"></i>&nbsp;LeetCode</a>
+          <a class="btn btn-ghost" target="_blank" href="https://www.geeksforgeeks.org/user/imnayab/"><i class="ri-braces-line"></i>&nbsp;GFG</a>
+        </div>
       </div>
     </div>
   </section>
 
-  <!-- Projects -->
-  <section id="projects">
-    <h2>Projects</h2>
-    <ul>
-      <li><a href="https://github.com/imnayab/Resume-Screening-System" target="_blank">AI Resume Screening System</a></li>
-      <li><a href="https://github.com/imnayab/Matching-Engine" target="_blank">C++ Matching Engine</a></li>
-    </ul>
-  </section>
-
-  <!-- Coding Practice -->
-  <section id="coding">
-    <h2>Coding Practice</h2>
-    <ul>
-      <li><a href="https://github.com/imnayab/Java-DSA-Practice" target="_blank">Java DSA Practice</a></li>
-      <li><a href="https://leetcode.com/u/imnayab/" target="_blank">LeetCode Profile</a></li>
-      <li><a href="https://www.geeksforgeeks.org/user/imnayab/" target="_blank">GeeksforGeeks Profile</a></li>
-    </ul>
-  </section>
-
-  <!-- Contact -->
-  <section id="contact">
-    <h2>Contact</h2>
-    <div class="contact-container">
-      <p><i class="ri-mail-line"></i> somlamab@gmail.com</p>
-      <p><i class="ri-github-line"></i> <a href="https://github.com/imnayab" target="_blank">github.com/imnayab</a></p>
-      <p><i class="ri-linkedin-box-line"></i> <a href="https://linkedin.com/in/shaik-nayab-rasool" target="_blank">LinkedIn</a></p>
+  <!-- SKILLS -->
+  <section id="skills" class="container section">
+    <h2 class="section__title">Skills</h2>
+    <div class="skills-grid">
+      <div class="card reveal">
+        <h3><i class="ri-terminal-box-line"></i> Programming Languages</h3>
+        <ul class="chips">
+          <li>C++</li>
+          <li>Java (OOP)</li>
+          <li>Python</li>
+          <li>DSA</li>
+        </ul>
+      </div>
+      <div class="card reveal">
+        <h3><i class="ri-cpu-line"></i> Libraries / Frameworks</h3>
+        <ul class="chips">
+          <li>Machine Learning</li>
+          <li>React.js</li>
+          <li>Flask</li>
+          <li>PyTorch</li>
+        </ul>
+      </div>
+      <div class="card reveal">
+        <h3><i class="ri-tools-line"></i> Tools / Platforms</h3>
+        <ul class="chips">
+          <li>VS Code</li>
+          <li>Git &amp; GitHub</li>
+          <li>StarUML</li>
+          <li>Jupyter</li>
+        </ul>
+      </div>
+      <div class="card reveal">
+        <h3><i class="ri-database-2-line"></i> Databases</h3>
+        <ul class="chips">
+          <li>MySQL</li>
+          <li>Oracle 10g Express</li>
+        </ul>
+      </div>
     </div>
   </section>
 
-  <footer>
-    <p>© 2025 Shaik Nayab Rasool | Built with ❤️</p>
+  <!-- PROJECTS -->
+  <section id="projects" class="container section">
+    <h2 class="section__title">Projects</h2>
+    <div class="cards">
+      <article class="card reveal">
+        <div class="card__head">
+          <h3>Leaf Disease Detection</h3>
+          <div class="tags">
+            <span>PyTorch</span><span>ML</span><span>Python</span><span>Flask</span>
+          </div>
+        </div>
+        <p class="card__body">
+          Built a CNN to identify plant diseases from images using PyTorch, and wrapped it in a Flask web app for quick uploads and results.
+        </p>
+      </article>
+
+      <article class="card reveal">
+        <div class="card__head">
+          <h3>Face-based Attendance</h3>
+          <div class="tags">
+            <span>OpenCV</span><span>Machine Learning</span><span>Flask</span><span>Python</span>
+          </div>
+        </div>
+        <p class="card__body">
+          Implemented face detection (K-means–based flow) and an attendance pipeline; applied ML to a real-world workflow end-to-end.
+        </p>
+      </article>
+
+      <article class="card reveal">
+        <div class="card__head">
+          <h3>Wander-Guide</h3>
+          <div class="tags">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+          </div>
+        </div>
+        <p class="card__body">
+          A dynamic tour-planning site with a clean landing page and interactive UI for exploring itineraries and highlights.
+        </p>
+      </article>
+    </div>
+  </section>
+
+  <!-- CODING PRACTICE -->
+  <section id="coding" class="container section">
+    <h2 class="section__title">Coding Practice</h2>
+    <div class="cards">
+      <article class="card reveal">
+        <div class="card__head">
+          <h3>Java DSA Practice</h3>
+          <div class="tags"><span>Java</span><span>Algorithms</span><span>Data Structures</span></div>
+        </div>
+        <p class="card__body">
+          Topic-wise solutions and patterns in Java. Clean code + explanations as I prepare for interviews.
+        </p>
+        <div class="card__actions">
+          <a class="btn btn-primary btn-sm" target="_blank" href="https://github.com/imnayab/Java-DSA-Practice">
+            <i class="ri-github-line"></i>&nbsp;View Repo
+          </a>
+        </div>
+      </article>
+
+      <article class="card reveal">
+        <div class="card__head">
+          <h3>Profiles</h3>
+          <div class="tags"><span>LeetCode</span><span>GFG</span></div>
+        </div>
+        <p class="card__body">Track my progress & problem-solving streaks.</p>
+        <div class="links-row">
+          <a class="link-pill" target="_blank" href="https://leetcode.com/u/imnayab/">
+            <i class="ri-code-box-line"></i> LeetCode
+          </a>
+          <a class="link-pill" target="_blank" href="https://www.geeksforgeeks.org/user/imnayab/">
+            <i class="ri-braces-line"></i> GeeksforGeeks
+          </a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="container section">
+    <h2 class="section__title">Contact</h2>
+    <div class="contact">
+      <a class="link-pill" href="mailto:somlamab@gmail.com"><i class="ri-mail-line"></i>&nbsp;somlamab@gmail.com</a>
+      <a class="link-pill" target="_blank" href="https://github.com/imnayab"><i class="ri-github-line"></i>&nbsp;github.com/imnayab</a>
+      <a class="link-pill" target="_blank" href="https://drive.google.com/file/d/1PO41UB_CBhZ804fpqyt_Yn203PdsB3_4/view?usp=sharing"><i class="ri-file-text-line"></i>&nbsp;Resume (PDF)</a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© 2025 Shaik Nayab Rasool — Built with ❤️ on GitHub Pages</p>
   </footer>
+
+  <!-- tiny IntersectionObserver for reveal animations -->
+  <script>
+    const revealEls = document.querySelectorAll(".reveal");
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach(e => { if (e.isIntersecting) e.target.classList.add("in"); });
+    }, { threshold: 0.15 });
+    revealEls.forEach(el => io.observe(el));
+  </script>
 </body>
 </html>
